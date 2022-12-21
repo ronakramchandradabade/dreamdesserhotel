@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(h1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1400px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.container h2{
+    font-size: 30px;
+    color: grey;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.container ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+
+.container ul li a:hover{
+   border-bottom: 5px solid #bf55ec;
+}
+
+.container .call{
+    width: 200px;
+    height: 20px;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.container .call:hover{
+   
+    border-bottom: 5px solid #bf55ec;
+}
+
+.content{
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.content .btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+.content .btn:hover{
+    background-color: #fff;
+    color: orange
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #fff;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button a{
+    background: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem 3rem 0rem;
+    color: #fff;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.social a i{
+    font-size: 1.1rem;
+}
+
+.social i:hover{
+    color: #30d300;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hotel Booking</title>
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+<link href="form.css" rel='stylesheet' type='text/css' />
+
+<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> 
+
+<script>
+	function f1(){
+		if(document.getElementById("t1").value=="")
+		{
+			alert("Please Enter Your Name..")
+		}		
+		if(document.getElementById("t2").value=="")
+		{
+			alert("Please Enter Your Last Name")
+		}
+		if(document.getElementById("t3").value=="")
+		{
+			alert("Please Enter Your Mobile No..")
+		}
+		if(document.getElementById("t4").value=="")
+		{
+			alert("Please Enter Your Email..")
+		}
+	}
+</script>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row">
+				<img class="logo">
+
+				<label>
+                        <font size="6" style="font-style: italic; font-family: 'Flamenco', cursive; color: gray">
+                            Dream Desert Hotel
+                        </font>
+                    </label>
+
+                    
+				<ul class="main-nav" id="check-class">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="rooms.html">Our Top Rooms </a></li>
+                    <li><a href="hotelbooking.html">Contact us</a></li>
+					<li><a href="attraction.html">Attractions</a></li>    
+                </ul>
+                
+			</div>
+		</nav>
+	</header>
+
+<h1> Contact Us</h1>
+    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>Your Information</h2>
+						<div class="book-form agileits-login">
+							<form action="#" method="post">
+								<div class="agileits_reservation_grid">
+								<div class="phone_email">
+									<div class="form-text">
+										<i class="fa fa-user" aria-hidden="true"></i>
+										<input type="text" name="Name" placeholder="First name" autocomplete="off" id="t1">
+									</div> 
+								</div>
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<i class="fa fa-user" aria-hidden="true"></i>
+										<input type="text" name="Name" placeholder="Last name" autocomplete="off" id="t2">
+									</div>
+								</div>
+								
+								<div class="phone_email">
+									<div class="form-text">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<input type="text" name="Phone no" placeholder="Phone number" autocomplete="off" id="t3">
+									</div> 
+								</div> 
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+										<input type="email" name="email" placeholder="Email" autocomplete="off" id="t4">
+									</div>
+								</div>
+									
+								
+									
+									
+									<div class="clear"></div>
+								</div> 
+								<input type="submit" value="Send Mail" onclick="f1()">
+								<input type="reset" value="Reset">
+								<div class="clear"></div>
+							</form>
+						</div>
+
+		</div>
+   </div>
+  
+		
+		
+
+</body>
+</html>
